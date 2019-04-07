@@ -32,9 +32,25 @@
 
 </head>
 
-<body ">
-<h5>Selvia Tunjungsih W.K / L20016152</h5>
-<h4>Hasil Preprocessing menggunakan proses Poincare, Gabor, Tining dan Crossing Number</h4><br>
+<body>
+</br>
+<center> <h3>BIOMETRICS</h3></center>
+<center> <h5>TUGAS 2 - IMAGE PREPROCESSING (FINGER PRINT)</h5></center>
+<center> <h5>Selvia Tunjungsih W.K / L20016152</h5></center>
+<p>
+<h6>   Prerequisites</h6></p>
+1. python 3.7.1 <br>
+2. python imaging library (PIL)
+
+<br><br>
+<h6>Tahapan Proses :</h6>
+1. Foto sidik jari yg telah dibuat black n white atau greyscale <br>
+2. Melakukan proses sesuai referensi <a href = https://github.com/mrzenwolf/biometrics/>https://github.com/mrzenwolf/biometrics/</a> yg merupakan perbaikan dari <br>
+program <a href = https://github.com/rtshadow/biometrics/> https://github.com/rtshadow/biometrics </a> yang menggunakan python 2.7 ke python 3.7
+<br>
+<br>
+<h6>Hasil Preprocessing menggunakan proses Poincare, Gabor, Thining dan Crossing Number</h6><br>
+
 	<!-- Page Preloder -->
 	<div id="preloder">
 		<div class="loader"></div>
@@ -109,7 +125,7 @@
 		</nav>
 	</header> -->
 	<!-- Header section end -->
-
+</body>
 
 
 	<!-- Hero section -->
@@ -117,59 +133,77 @@
 		<div class="hero-slider owl-carousel">
 			<div>
 				<div class="row">
-					<div class="col-xl-6 col-lg-7 text-black" >
+					<div class="col-xl-4 col-lg-7 text-black" >
 						<img src="img/sel_original.jpg">
 						
 					</div>
 
 				<div>
-					<h6>Gambar Original</h6>
+					<h6>Gambar Original</h6><br>
+					Gambar menggunakan cap sidik ibu jari tinta biru di fotokopi agar lebih jelas, <br>
+					setelah itu baru difoto.
 				</div>
 				</div>
 			</div>
 			<div class="hs-item set-bg" data-setbg="">
 
 					<div class="row">
-						<div class="col-xl-5 col-lg-7 text-white">
+						<div class="col-xl-4 col-lg-7 text-white">
 							<img src="img/sel_poincare.png">
 						</div>
-						<h6></br></br>
-							Proses POINCARE</h6>
-	
+					<div>
+					<h6>Proses POINCARE</h6>
+					<br>Menghasilkan titik-titik / point-point warna merah dan hijau pada titik-titik<br>
+					tertentu pada sidik jari.
 					</div>
+				</div>
 				</div>
 			<div >
 
 					<div class="row">
-						<div class="col-xl-6 col-lg-7 text-white">
+						<div class="col-xl-4 col-lg-7 text-white">
 							<img src="img/sel_gabor.jpg">
 						</div>
-						<h6></br></br>
-						Proses GABOR</h6>
+					<div>
+						
+					<h6>Proses GABOR</h6> <br>
+					Digunakan untuk memperbaiki kualitas citra sidik jari hasil akusisi, <br>
+						serta untuk mengambil ciri makro dan mikro yang terdapat dalam citra sidik jari,<br>
+						sehingga diperoleh jumlah ciri yang tetap untuk setiap sidik jari
 					</div>
+				</div>
 				</div>
 				<div >
 
 						<div class="row">
-							<div class="col-xl-6 col-lg-7 text-white">
+							<div class="col-xl-4 col-lg-7 text-white">
 								<img src="img/sel_thining.jpg">
 								
 							</div>
-							<h6></br></br>
-								Proses THINING</h6>
-		
+						<div>
+						<h6>
+						Proses THINING</h6>
+						<br>
+						Pada pengenalan sidik jari metode thinning sangat penting karena dapat <br>
+						mengurangi waktu proses sistem. Hasil dari metode thinning tidak merubah struktur <br>
+						sidik jari dan mempertahankan lokasi ridge pada sidik jari dan ciri falley atau bukit. 
+					</div>
 						</div>
 					</div>
 					<div >
 
 							<div class="row">
-								<div class="col-xl-6 col-lg-7 text-white">
+								<div class="col-xl-4 col-lg-7 text-white">
 									<img src="img/sel_crossing_number.jpg">
 									
 								</div>
-								<h6></br></br>
+					<div>
+								<h6>
 									Proses CROSSING NUMBER</h6>
-							</div>
+									<br>
+									Crossing number digunakan untuk mengidentifikasi ujung ridge dan ridge bifurcations.
+								</div>
+								</div>
 						</div>
 	
 	</section>
@@ -210,7 +244,22 @@
 	</section> -->
 	<!-- Features section end -->
 
-
+<table border='1'>
+	<tr align='center'>
+		<td  >ORIGINAL</td>
+		<td>POINCARE</td>	
+		<td>GABOR</td>	
+		<td>THINING</td>
+		<td>CROSSING NUMBER</td>		
+	</tr>
+	<tr>
+			<td><img src="img/sel_original.jpg"></td>
+			<td><img src="img/sel_poincare.png"></td>	
+			<td><img src="img/sel_gabor.jpg"></td>	
+			<td><img src="img/sel_thining.jpg"></td>
+			<td><img src="img/sel_crossing_number.jpg"></td>
+	</tr>
+</table>
 
 	<!--====== Javascripts & Jquery ======-->
 	<script src="js/jquery-3.2.1.min.js"></script>
@@ -222,6 +271,6 @@
 	<script src="js/jquery-ui.min.js"></script>
 	<script src="js/main.js"></script>
 
-</body>
+
 
 </html>
