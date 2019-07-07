@@ -2,4 +2,4 @@
 
 Tugas Biometrics, <a href = 'https://l200160152.github.io/fingerprint/'> here </a>
 <br>Tugas Android Mobile Volley, <a href = 'https://l200160152.github.io/android/'> here</a>
-<br>Tugas Android Mobile Volley, <a href = 'https://l200160152.github.io/android/login_and_register/index.html'> here</a>
+<br>Tugas Android Login dan Register, <a href = 'https://l200160152.github.io/android/login_and_registration/index.html'> here</a>
